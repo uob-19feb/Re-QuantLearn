@@ -4,5 +4,6 @@ simple learning experience
 ## stacks
 - electron
 - yarn
-- gulp
+- webpack
 - react
+- react-router
