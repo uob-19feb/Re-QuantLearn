@@ -1,5 +1,6 @@
 # Re-QuntLearn
+simple learning experience
 
-testing... 
-testing new repo need addtion 
-some new packages need to added 
+## stacks
+- electron
+- yarn
