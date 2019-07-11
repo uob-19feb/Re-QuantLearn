@@ -1,0 +1,17 @@
+{
+  "name": "Re-QuntLearn",
+  "version": "1.0.0",
+  "description": "simple quantum learning experience",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/uob-19feb/Re-QuntLearn.git",
+  "author": "uttam thapa <uttammoagar@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "electron": "^5.0.6",
+    "react": "^16.8.6"
+  }
+}
