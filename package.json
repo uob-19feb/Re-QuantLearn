@@ -2,9 +2,9 @@
   "name": "QuantLearn",
   "version": "1.0.0",
   "description": "simple quantum learning experience",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",  
   },
   "keywords": [
     "qc",
@@ -16,16 +16,16 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "electron": "^5.0.6",
-    "eslint": "^6.0.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "electron": "^5.0.6"
   },
   "devDependencies": {
     "@babel/core": "^7.5.4",
     "@babel/preset-env": "^7.5.4",
     "@babel/preset-react": "^7.0.0",
     "electron-builder": "^21.0.15",
+    "eslint": "^6.0.1",
+    "eslint-config-google": "^0.13.0",
+    "eslint-plugin-react": "^7.14.2",
     "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.5",
