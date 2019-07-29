@@ -80,13 +80,17 @@ button{
 
 
 
-
+/* containerFrame */
+.containerFrame{
+  height: 700px;
+}
 
 /* SelectContainer */
 
 .SelectContainer{
   max-width: 898px;
   margin:0 auto;
+  margin-top: 70px;
   border:1px solid pink;
   display: flex;
   align-items: center,stretch;
