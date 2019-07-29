@@ -16,6 +16,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
+    "bulma": "^0.7.5",
     "electron": "^5.0.6"
   },
   "devDependencies": {

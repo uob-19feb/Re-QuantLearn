@@ -7,14 +7,14 @@ const iconSrc = path.join(__dirname, '/resources/assets/icons/quantLearn.png')
 
 let mainWin = null
 
-//application closing 
+//application closing
 app.on("window-all-closed", () => {
   if (process.platform !== 'darwin') {
     app.quit()
   }
 })
 
-//window specificiation 
+//window specificiation
 app.on('ready', ()=>{
   mainWin = new BrowserWindow({
     minWidth: 900,
@@ -39,7 +39,7 @@ app.on('ready', ()=>{
     slashes: true
   }))
 
-  //dev tool 
+  //dev tool
   mainWin.webContents.openDevTools()
 
 })
@@ -51,4 +51,3 @@ if(process.platform === 'darwin'){
 ipcMain.on("close-me", (evt, arg) => {
   app.quit();
 });
-

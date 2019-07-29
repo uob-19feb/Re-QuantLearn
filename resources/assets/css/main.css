@@ -30,7 +30,7 @@ body{
 }
 
 li{
-  padding-bottom:10px; 
+  padding-bottom:10px;
 }
 
 #infoScrn{
@@ -68,4 +68,44 @@ button{
   padding: 10px 22px;
   border: 1px solid;
   font-family: 'Source Sans Pro', 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+/* .btnback{
+  margin-top: 2px;
+} */
+
+.btnadjust{
+    margin:20px;
+}
+
+
+
+
+
+/* SelectContainer */
+
+.SelectContainer{
+  max-width: 898px;
+  margin:0 auto;
+  border:1px solid pink;
+  display: flex;
+  align-items: center,stretch;
+}
+
+.select_path{
+  background-color: yellow;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex:1;
+  flex-wrap: wrap;
+}
+
+.select_path > *{
+  flex:1 1 100%;
+}
+
+.select_path .btnNext{
+  align-self: flex-end;
 }
