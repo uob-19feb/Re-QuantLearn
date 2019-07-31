@@ -113,3 +113,10 @@ button{
 .select_path .btnNext{
   align-self: flex-end;
 }
+
+/* studentpath */
+.rightCorner{
+    margin-right: 30px;
+    margin-top: 2px;
+
+}

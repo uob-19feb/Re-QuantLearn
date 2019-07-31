@@ -1,0 +1,9 @@
+.searchBox{
+  border-radius: unset;
+  margin-top: 27px;
+  width:60%;
+}
+
+input::placeholder{
+  text-align: center;
+}
