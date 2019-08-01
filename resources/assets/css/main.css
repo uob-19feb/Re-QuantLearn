@@ -1,9 +1,10 @@
+/* @import ''; */
 #myman{
   background-color: cornflowerblue;
 }
 
 body{
-  background: linear-gradient(.75turn, #00b8fff2,#b8abf3)
+  background: linear-gradient(.75turn, #00b8fff2,#b8abf3);
 }
 
 #contentContainer{
@@ -82,7 +83,7 @@ button{
 
 /* containerFrame */
 .containerFrame{
-  height: 700px;
+  height: 678px;
 }
 
 /* SelectContainer */

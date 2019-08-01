@@ -1,0 +1,45 @@
+.manualWrapper {
+  width: 80%;
+  max-width: 600px;
+  margin: 0px auto;
+}
+
+
+button.manualTab {
+  width: 100%;
+  background-color: whitesmoke;
+  border: none;
+  outline: none;
+  text-align: left;
+  padding: 15px 20px;
+  font-size: 18px;
+  color: #444;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+}
+
+button.manualTab:after {
+  content: '';
+  font-family: "fontawesome";
+  font-size: 14px;
+  float: right;
+}
+
+button.manualTab.is-open:after {
+  content: '';
+}
+
+button.manualTab:hover, button.manualTab.is-open {
+  background-color: #ddd;
+}
+
+.manualContent {
+  background-color: white;
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  padding: 0 20px;
+  max-height: 0;
+  margin-bottom: 24px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in-out;
+}
