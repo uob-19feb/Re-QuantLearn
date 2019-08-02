@@ -4,12 +4,13 @@
 }
 
 body{
+  height: 100vh;
   background: linear-gradient(.75turn, #00b8fff2,#b8abf3);
 }
 
 #contentContainer{
   display: flex;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   justify-content: center;
 
 }
@@ -92,9 +93,9 @@ button{
   max-width: 898px;
   margin:0 auto;
   margin-top: 70px;
-  border:1px solid pink;
+  /* border:1px solid pink; */
   display: flex;
-  align-items: center,stretch;
+  /* align-items: center,stretch; */
 }
 
 .select_path{
@@ -120,4 +121,32 @@ button{
     margin-right: 30px;
     margin-top: 2px;
 
+}
+
+/* student topic content */
+#wrapper {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.sizeExp{
+  margin:10px;
+  width: 200px;
+  height: 100px;
+  background: #15ecff; /*3EB489*/
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  text-align: center;
+}
+
+.innerTopic{
+  font-size: .75em;
+  color: black;
+  line-height: 100px;
+  font-family: monospace;
+  text-decoration: none;
 }

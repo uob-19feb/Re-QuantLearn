@@ -19,7 +19,7 @@ app.on('ready', ()=>{
   mainWin = new BrowserWindow({
     minWidth: 900,
     minHeight: 700,
-    width: 900,
+    width: 1000,
     height: 700,
     // width: 1024,
     // height: 815,
