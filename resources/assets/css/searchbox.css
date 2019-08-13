@@ -1,7 +1,12 @@
+.searchbarBox{
+  top: -13px;
+}
+
 .searchBox{
   border-radius: unset;
   margin-top: 27px;
   width:60%;
+  height: 28px;
 }
 
 input::placeholder{

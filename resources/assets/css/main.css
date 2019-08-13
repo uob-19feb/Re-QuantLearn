@@ -1,4 +1,5 @@
 /* @import ''; */
+/* @@import "manual.css"; */
 #myman{
   background-color: cornflowerblue;
 }
@@ -116,13 +117,21 @@ button{
   align-self: flex-end;
 }
 
+.topNavprop{
+  margin-bottom: 2px;
+}
+
 /* studentpath */
 .rightCorner{
     margin-right: 30px;
     margin-top: 2px;
 
 }
-
+/* student sliding tab navigation */
+.slideTab{
+  width: 30%;
+  margin: 0 auto;
+}
 /* student topic content */
 #wrapper {
     list-style: none;
@@ -135,7 +144,7 @@ button{
 
 .sizeExp{
   margin:10px;
-  width: 200px;
+  width: 200px;o
   height: 100px;
   background: #15ecff; /*3EB489*/
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
@@ -149,4 +158,21 @@ button{
   line-height: 100px;
   font-family: monospace;
   text-decoration: none;
+}
+
+
+
+/* tab sliding feature */
+.tabcontent{
+display: none;
+animation: fadeEffect 1s;
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+#Topics{
+  display: Block;
 }

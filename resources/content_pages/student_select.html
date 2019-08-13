@@ -15,27 +15,27 @@
   <!-- searchbox styling -->
   <link rel="stylesheet" href="../assets/css/searchbox.css">
   <!-- <link rel="stylesheet" href="style.css"> -->
-
   <!--  -->
-  <!--  -->
+  <script src="../assets/js/fontawesome.js" charset="utf-8"></script>
   <script src="../assets/js/search.js" charset="utf-8"></script>
-  <script src="">
+  <script src="../assets/js/tab.js" charset="utf-8"></script>
 
-  </script>
 
   <!--  -->
   <title>Student Select Page </title>
 </head>
 
 <body>
-    <nav class="level">
+
+  <!-- top main navigation page -->
+    <nav class="level topNavprop">
         <p class="level-left has-text-centered btnadjust">
       <a href="select_page.html" class="btnback button">
       BACK
       </a>
     </p>
 
-    <p class="control level-item has-text-centered title">
+    <p class="control level-item has-text-centered searchbarBox">
       <input id="searchitem" type="text"  name="search "class="input is-normal searchBox" placeholder="Search your Topic" onkeyup="topicSearch()">
     </p>
 
@@ -45,8 +45,27 @@
 
   </nav>
 
-  <div class="topic_content">
+<!-- secondary navigation-->
+<div class="slideTab tabs is-centered">
+      <ul>
+        <li class="tablinks is-active" onclick="openTab(event, 'Topics')">
+          <a>
+            <span class="icon is-small"><i class="fas fa-book" aria-hidden="true"></i></span>
+            <span>Topics</span>
+          </a>
+        </li>
+        <li class="tablinks" onclick="openTab(event, 'Quiz')">
+          <a>
+            <span class="icon is-small"><i class="fas fa-clipboard-list" aria-hidden="true"></i></span>
+            <span>Quiz</span>
+          </a>
+        </li>
+      </ul>
+  </div>
 
+<!-- content component -->
+<div class="">
+  <div id="Topics" class="tabcontent">
     <ul id="wrapper">
         <li class="sizeExp">
             <a class="innerTopic" href="#"> what is Quantum computing?</a>
@@ -90,7 +109,16 @@
         <li class="sizeExp">
             <a class="innerTopic" href="#"> Future prospect</a>
         </li>
+        <li class="sizeExp">
+            <a class="innerTopic" href="#"> testing</a>
+      </li>
     </ul>
+  </div>
+
+  <div id="Quiz" class="tabcontent">
+    <h3 class="is-size-3">quiz shizz</h3>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
 
   </div>
 
