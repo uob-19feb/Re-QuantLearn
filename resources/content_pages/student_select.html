@@ -11,12 +11,16 @@
   <!-- links  -->
   <link rel="stylesheet" href="../assets/css/main.css">
   <link rel="stylesheet" href="../assets/css/bulma.css">
-
+  <!--inSectionQuiz  -->
+  <link rel="stylesheet" href="../assets/css/inSectionQuiz.css">
   <!-- searchbox styling -->
   <link rel="stylesheet" href="../assets/css/searchbox.css">
   <!-- <link rel="stylesheet" href="style.css"> -->
-  <!--  -->
+
+
+  <!--scripts  -->
   <script src="../assets/js/fontawesome.js" charset="utf-8"></script>
+
   <script src="../assets/js/search.js" charset="utf-8"></script>
   <script src="../assets/js/tab.js" charset="utf-8"></script>
 
@@ -115,17 +119,24 @@
     </ul>
   </div>
 
-  <div id="Quiz" class="tabcontent">
-    <h3 class="is-size-3">quiz shizz</h3>
-    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <div id="Quiz" class="tabcontent quiz_content_wrapping">
+        <header>
+            <p class="title">Quiz</p>
+        </header>
+        <div id="app">
+            <h1 class="h2">Welcome to the Quantum Computing Quiz</h1>
+            <button id="start">START</button>
+        </div>
   </div>
 
   </div>
 
 
-    <script>
+    <!-- <script>
         require('../assets/js/index.js');
-    </script>
+    </script> -->
+    <script src="../assets/js/quizRunnerLogic.js" ></script>
+      <script src="../assets/js/inSectionQuiz.js" charset="utf-8"></script>
 
 </body>
 
