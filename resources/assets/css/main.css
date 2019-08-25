@@ -99,6 +99,8 @@ button{
   /* align-items: center,stretch; */
 }
 
+
+/* select path stytling starts here */
 .select_path{
   background-color: yellow;
   margin: 10px;
@@ -132,6 +134,7 @@ button{
   width: 30%;
   margin: 0 auto;
 }
+
 /* student topic content */
 #wrapper {
     list-style: none;
@@ -150,6 +153,14 @@ button{
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
   text-align: center;
+  transition: 1s;
+}
+
+.sizeExp:hover{
+  transform: scale(1.1);
+  background: #15ecff;
+  z-index: 2;
+  box-shadow: 2px 2px 2px #000;
 }
 
 .innerTopic{
@@ -160,9 +171,31 @@ button{
   text-decoration: none;
 }
 
+/* topic content specific styles */
+.title_sizing{
+  height: 30px;
+}
+.topic_content_inpage{
+    display:flex;
+    justify-content: center;
+}
+
+.topic_contentBox{
+  top: 20px;
+  width: 800px;
+}
+
+.mainContentOutter{
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
 
 
-/* tab sliding feature */
+
+
+
+
+/* student path > contetn >tab sliding feature */
 .tabcontent{
 display: none;
 animation: fadeEffect 1s;
@@ -175,4 +208,46 @@ animation: fadeEffect 1s;
 
 #Topics{
   display: Block;
+}
+
+/* teacher path  */
+.teacher_topicMaterial{
+  width: 96%;
+  padding: 8px;
+  margin: 60px auto;
+  /* background: #ddd; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border:2px solid violet;
+}
+
+.ContBox{
+  width: 250px;
+  height: 380px;
+  background: #fff;
+  margin: 0px 10px;
+  transition: 1s;
+}
+
+.ContBox:hover {
+  transform: scale(1.1);
+  background: #FFFEC2;
+  z-index: 2;
+  box-shadow: 2px 2px 2px #000;
+}
+
+
+
+
+/* reseacher contents */
+.researcher_content{
+  width: 90%;
+  padding: 20px;
+  margin: 60px auto;
+  /* background: #ddd; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border:2px solid violet;
 }
