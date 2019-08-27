@@ -34,7 +34,7 @@ contentOpen.forEach(function(btn){
   };
 });
 
-let closeContent =  document.querySelectorAll('.modal-close')[0];
+let closeContent =  document.querySelectorAll('.modal-close');
 
 closeContent.forEach(function(btn){
   btn.onclick = function () {
